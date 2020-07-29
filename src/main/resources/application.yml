@@ -1,0 +1,23 @@
+spring:
+   application:
+    name: @artifactId@
+    version: @project.version@
+
+#server:
+#  port: 8080    
+#
+#application: 
+#  id: SKELETON_MS
+#  type: X
+#  client:
+#    protocol: http #No Cambiar
+#    host: localhost #Cambiar por el host de kubernetes
+#    port: 8080 #Cambiar solo en caso de pruebas en local
+#    basePath: /  #Endpoint Cliente
+#    url: ${application.client.protocol}://${application.client.host}:${application.client.port}${application.client.basePath}
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: info,refresh,keepalive,health
+#timeout: 390
